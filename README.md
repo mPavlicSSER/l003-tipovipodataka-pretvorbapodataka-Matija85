@@ -116,25 +116,29 @@ string ime = "Marko";
 ## 5. Deklaracija i inicijalizacija
 
 Deklaracija:
+```csharp
 int broj;
-
+```
 Inicijalizacija:
+```csharp
 broj = 25;
-
+```
 Deklaracija + inicijalizacija:
+```csharp
 int broj = 25;
-
+```
 ---
 
 ## 6. Primjer korištenja tipova podataka
-
+```csharp
 string ime = "Luka";  
 int godine = 17;  
 double visina = 1.83;  
 float prosjek = 4.50f;  
 char ocjena = 'A';  
 bool punoljetan = false;
-
+```
+```csharp
 Ispis:
 Ime: Luka  
 Godine: 17  
@@ -142,7 +146,7 @@ Visina: 1.83
 Prosjek: 4.5  
 Ocjena: A  
 Punoljetan: False  
-
+```
 ---
 
 ## 7. Najčešće pogreške
@@ -169,12 +173,13 @@ Najčešći način pretvorbe stringa u druge tipove je korištenjem **Parse meto
 `Parse` je metoda koja pretvara **string → određeni tip podatka**.
 
 Svaki tip podatka ima svoju Parse metodu:
-
+```csharp
 - `int.Parse()`
 - `double.Parse()`
 - `float.Parse()`
 - `bool.Parse()`
 - `char.Parse()`
+```
 
 ## 3. Primjeri Parse pretvorbi
 
